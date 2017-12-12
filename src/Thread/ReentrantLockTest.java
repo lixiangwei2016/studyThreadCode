@@ -9,9 +9,6 @@ import java.util.concurrent.locks.ReentrantLock;
 public class ReentrantLockTest {
 
     Lock lock = new ReentrantLock();
-    public  void print(){
-        lock.lock();
-        System.out.println("正在打印");
-
+    public void print(){
     }
 }
